@@ -5,12 +5,12 @@ matplotlib)*** .The core of our tracking algorithm used a combination of tools a
 
 To use the code, First the coordinates of trajectories should be extracted using Tracking algorithm.( Here we extracted them through our KLT based tracking algorithm and saved them in text file ). we have 6 files for 2 sets of Data: 
 
-* ** XA ** : Denotes the ** X ** coordinations on **After Calcium** data set.
-* ** YA ** : Denotes the ** X ** coordinations on **After Calcium** data set.
-* ** XB ** : Denotes the ** X ** coordinations on **Before Calcium** data set.
-* ** YB ** : Denotes the ** X ** coordinations on **Before Calcium** data set.
-* ** AA ** : Denotes the ** angles ** of the objects movement in 2 consecutive frames on **After Calcium** data set.
-* ** AB ** : Denotes the ** angles ** of the objects movement in 2 consecutive frames on **Before Calcium** data set.
+*  XA  : Denotes the ** X ** coordinations on **After Calcium** data set.
+*  YA  : Denotes the ** Y ** coordinations on **After Calcium** data set.
+*  XB  : Denotes the ** X ** coordinations on **Before Calcium** data set.
+*  YB  : Denotes the ** Y ** coordinations on **Before Calcium** data set.
+*  AA  : Denotes the ** angles ** of the objects movement in 2 consecutive frames on **After Calcium** data set.
+*  AB  : Denotes the ** angles ** of the objects movement in 2 consecutive frames on **Before Calcium** data set.
 
 Then you should run the **RBF_Clustering.py** to load the files, Extract the AR parameters, making the RBF Kernel using eigenvectors and finally cluster the trajectories.
 
