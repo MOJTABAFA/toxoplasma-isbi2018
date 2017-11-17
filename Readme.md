@@ -14,4 +14,4 @@ To use the code, First the coordinates of trajectories should be extracted using
 
 Then you should run the **RBF_Clustering.py** to load the files, Extract the AR parameters, making the RBF Kernel using eigenvectors and finally cluster the trajectories.
 
-After running **RBF_Clustering.py** It will create a **label.txt** file in the same directory. This file shows the labels for each cluster and will be used in **RBF_Visualization.py** to visualize the clusters of the trajectories. 
+After running **RBF_Clustering.py** It will create a **label.txt** file in the same directory. This file shows the labels for each Trajectory and will be used in **RBF_Visualization.py** to visualize the clusters of the trajectories. 
