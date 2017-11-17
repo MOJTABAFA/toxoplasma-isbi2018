@@ -1,9 +1,9 @@
-***This Repository is created to share the codes for ISBI 2018 paper with title of _"UNSUPERVISED DISCOVERY OF TOXOPLASMA GONDII MOTILITY PHENOTYPES"_***
+***This repository is created to share the codes for ISBI 2018 paper with the title of _"UNSUPERVISED DISCOVERY OF TOXOPLASMA GONDII MOTILITY PHENOTYPES"_***
 
 We implemented our pipeline using Python 3 and associated scientific computing libraries ***(NumPy, SciPy, scikit-learn,
 matplotlib)*** .The core of our tracking algorithm used a combination of tools available in the OpenCV 3.1 computer vision library. 
 
-To use the code, First the coordinates of trajectories should be extracted using Tracking algorithm.( Here we extracted them through our KLT based tracking algorithm and saved them in text file ). we have 6 files for 2 sets of Data: 
+To use the code, First the coordinates of the cell trajectories should be extracted using a **tracking algorithm** .( Here we extracted them through our KLT based tracking algorithm and saved them in text file ). we have 6 files for 2 sets of Data: 
 
 *  XA  : Denotes the ** X ** coordinations on **After Calcium** data set.
 *  YA  : Denotes the ** Y ** coordinations on **After Calcium** data set.
